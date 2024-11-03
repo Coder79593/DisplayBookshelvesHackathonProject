@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="testcases.StudyChairsTest">
+        <methods>
+          <include name="searchStudyChairs"/>
+          <include name="applyFilters"/>
+          <include name="setup"/>
+          <include name="sortByCustomerRating"/>
+          <include name="extractStudyChairsDetails"/>
+          <include name="setPriceAndApply"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.StudyChairsTest -->
+      <class name="testcases.BookshelvesTest">
+        <methods>
+          <include name="sortByLowestPriceTest"/>
+          <include name="applyPriceFilterTest"/>
+          <include name="setup"/>
+          <include name="applyFilterTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.BookshelvesTest -->
+      <class name="testcases.GiftCardsTest">
+        <methods>
+          <include name="extractErrorMessagesToExcelTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="fillGiftDetailsTest"/>
+          <include name="selectdenomination"/>
+          <include name="selectGiftCardTest"/>
+        </methods>
+      </class> <!-- testcases.GiftCardsTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

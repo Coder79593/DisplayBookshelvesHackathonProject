@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [Combined Test Suite]">
+  <listeners>
+    <listener class-name="Extentreportlistener.TestListener"/>
+  </listeners>
+  <test thread-count="1" parallel="classes" name="Smoke and Regression Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testcases.BookshelvesTest">
+        <methods>
+          <include name="sortByLowestPriceTest"/>
+          <include name="applyPriceFilterTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.BookshelvesTest -->
+    </classes>
+  </test> <!-- Smoke and Regression Test(failed) -->
+</suite> <!-- Failed suite [Combined Test Suite] -->

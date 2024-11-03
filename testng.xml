@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<suite name="Test Suite" parallel="classes" thread-count="4">
+	<listeners>
+		<listener class-name="Extentreportlistener.TestListener"/>
+	</listeners>
+	<test name="Smoke and Regression Test">
+		<parameter name ="browser" value="chrome"/>
+		<groups>
+			<include name="smoke"/>
+			<include name="regression"/>
+		</groups>
+		<classes>
+			<class name="testcases.Menus"/>  
+			<class name="testcases.GiftCardsTest"/> 
+			<class name="testcases.BookshelvesTest"/>  
+			<class name="testcases.StudyChairsTest"/>
+		</classes>
+	</test>
+</suite>

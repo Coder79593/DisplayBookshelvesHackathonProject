@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-02T18:03:07 IST" name="Test Suite" finished-at="2024-11-02T18:04:37 IST" duration-ms="89511">
+    <groups>
+      <group name="regression">
+        <method signature="GiftCardsTest.fillGiftDetailsTest()[pri:2, instance:testcases.GiftCardsTest@238ad8c]" name="fillGiftDetailsTest" class="testcases.GiftCardsTest"/>
+        <method signature="GiftCardsTest.selectdenomination()[pri:3, instance:testcases.GiftCardsTest@238ad8c]" name="selectdenomination" class="testcases.GiftCardsTest"/>
+        <method signature="GiftCardsTest.extractErrorMessagesToExcelTest()[pri:4, instance:testcases.GiftCardsTest@238ad8c]" name="extractErrorMessagesToExcelTest" class="testcases.GiftCardsTest"/>
+        <method signature="BookshelvesTest.extractBookshelfDetailsToExcelTest()[pri:5, instance:testcases.BookshelvesTest@430fa4ef]" name="extractBookshelfDetailsToExcelTest" class="testcases.BookshelvesTest"/>
+        <method signature="StudyChairsTest.extractStudyChairsDetails()[pri:5, instance:testcases.StudyChairsTest@1761de10]" name="extractStudyChairsDetails" class="testcases.StudyChairsTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="BookshelvesTest.searchBookshelvesTest()[pri:1, instance:testcases.BookshelvesTest@430fa4ef]" name="searchBookshelvesTest" class="testcases.BookshelvesTest"/>
+        <method signature="GiftCardsTest.selectGiftCardTest()[pri:1, instance:testcases.GiftCardsTest@238ad8c]" name="selectGiftCardTest" class="testcases.GiftCardsTest"/>
+        <method signature="Menus.luxuruMenuhover()[pri:1, instance:testcases.Menus@c827db]" name="luxuruMenuhover" class="testcases.Menus"/>
+        <method signature="StudyChairsTest.searchStudyChairs()[pri:1, instance:testcases.StudyChairsTest@1761de10]" name="searchStudyChairs" class="testcases.StudyChairsTest"/>
+        <method signature="BookshelvesTest.applyFilterTest()[pri:2, instance:testcases.BookshelvesTest@430fa4ef]" name="applyFilterTest" class="testcases.BookshelvesTest"/>
+        <method signature="Menus.sofaMenuhover()[pri:2, instance:testcases.Menus@c827db]" name="sofaMenuhover" class="testcases.Menus"/>
+        <method signature="StudyChairsTest.applyFilters()[pri:2, instance:testcases.StudyChairsTest@1761de10]" name="applyFilters" class="testcases.StudyChairsTest"/>
+        <method signature="BookshelvesTest.applyPriceFilterTest()[pri:3, instance:testcases.BookshelvesTest@430fa4ef]" name="applyPriceFilterTest" class="testcases.BookshelvesTest"/>
+        <method signature="Menus.extractMenuItemsToExcel()[pri:3, instance:testcases.Menus@c827db]" name="extractMenuItemsToExcel" class="testcases.Menus"/>
+        <method signature="StudyChairsTest.setPriceAndApply()[pri:3, instance:testcases.StudyChairsTest@1761de10]" name="setPriceAndApply" class="testcases.StudyChairsTest"/>
+        <method signature="BookshelvesTest.sortByLowestPriceTest()[pri:4, instance:testcases.BookshelvesTest@430fa4ef]" name="sortByLowestPriceTest" class="testcases.BookshelvesTest"/>
+        <method signature="StudyChairsTest.sortByCustomerRating()[pri:4, instance:testcases.StudyChairsTest@1761de10]" name="sortByCustomerRating" class="testcases.StudyChairsTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-11-02T18:03:07 IST" name="Smoke and Regression Test" finished-at="2024-11-02T18:04:37 IST" duration-ms="89511">
+      <class name="testcases.GiftCardsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.GiftCardsTest@238ad8c]" started-at="2024-11-02T18:03:07 IST" name="setup" finished-at="2024-11-02T18:03:57 IST" duration-ms="50154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selectGiftCardTest()[pri:1, instance:testcases.GiftCardsTest@238ad8c]" started-at="2024-11-02T18:03:57 IST" name="selectGiftCardTest" finished-at="2024-11-02T18:04:05 IST" duration-ms="7145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectGiftCardTest -->
+        <test-method signature="fillGiftDetailsTest()[pri:2, instance:testcases.GiftCardsTest@238ad8c]" started-at="2024-11-02T18:04:05 IST" name="fillGiftDetailsTest" finished-at="2024-11-02T18:04:14 IST" duration-ms="9659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillGiftDetailsTest -->
+        <test-method signature="selectdenomination()[pri:3, instance:testcases.GiftCardsTest@238ad8c]" started-at="2024-11-02T18:04:14 IST" name="selectdenomination" finished-at="2024-11-02T18:04:15 IST" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectdenomination -->
+        <test-method signature="extractErrorMessagesToExcelTest()[pri:4, instance:testcases.GiftCardsTest@238ad8c]" started-at="2024-11-02T18:04:15 IST" name="extractErrorMessagesToExcelTest" finished-at="2024-11-02T18:04:16 IST" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractErrorMessagesToExcelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.GiftCardsTest@238ad8c]" started-at="2024-11-02T18:04:16 IST" name="tearDown" finished-at="2024-11-02T18:04:37 IST" duration-ms="20215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.GiftCardsTest -->
+      <class name="testcases.BookshelvesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.BookshelvesTest@430fa4ef]" started-at="2024-11-02T18:03:07 IST" name="setup" finished-at="2024-11-02T18:03:53 IST" duration-ms="45379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchBookshelvesTest()[pri:1, instance:testcases.BookshelvesTest@430fa4ef]" started-at="2024-11-02T18:03:53 IST" name="searchBookshelvesTest" finished-at="2024-11-02T18:04:03 IST" duration-ms="10226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBookshelvesTest -->
+        <test-method signature="applyFilterTest()[pri:2, instance:testcases.BookshelvesTest@430fa4ef]" started-at="2024-11-02T18:04:03 IST" name="applyFilterTest" finished-at="2024-11-02T18:04:15 IST" duration-ms="12160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFilterTest -->
+        <test-method signature="applyPriceFilterTest()[pri:3, instance:testcases.BookshelvesTest@430fa4ef]" started-at="2024-11-02T18:04:15 IST" name="applyPriceFilterTest" finished-at="2024-11-02T18:04:19 IST" duration-ms="3590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyPriceFilterTest -->
+        <test-method signature="sortByLowestPriceTest()[pri:4, instance:testcases.BookshelvesTest@430fa4ef]" started-at="2024-11-02T18:04:19 IST" name="sortByLowestPriceTest" finished-at="2024-11-02T18:04:24 IST" duration-ms="4912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByLowestPriceTest -->
+        <test-method signature="extractBookshelfDetailsToExcelTest()[pri:5, instance:testcases.BookshelvesTest@430fa4ef]" started-at="2024-11-02T18:04:24 IST" name="extractBookshelfDetailsToExcelTest" finished-at="2024-11-02T18:04:30 IST" duration-ms="6383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractBookshelfDetailsToExcelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BookshelvesTest@430fa4ef]" started-at="2024-11-02T18:04:30 IST" name="tearDown" finished-at="2024-11-02T18:04:36 IST" duration-ms="6470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.BookshelvesTest -->
+      <class name="testcases.Menus">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Menus@c827db]" started-at="2024-11-02T18:03:07 IST" name="setup" finished-at="2024-11-02T18:03:57 IST" duration-ms="50164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="luxuruMenuhover()[pri:1, instance:testcases.Menus@c827db]" started-at="2024-11-02T18:03:57 IST" name="luxuruMenuhover" finished-at="2024-11-02T18:03:59 IST" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luxuruMenuhover -->
+        <test-method signature="sofaMenuhover()[pri:2, instance:testcases.Menus@c827db]" started-at="2024-11-02T18:03:59 IST" name="sofaMenuhover" finished-at="2024-11-02T18:04:06 IST" duration-ms="7362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sofaMenuhover -->
+        <test-method signature="extractMenuItemsToExcel()[pri:3, instance:testcases.Menus@c827db]" started-at="2024-11-02T18:04:06 IST" name="extractMenuItemsToExcel" finished-at="2024-11-02T18:04:13 IST" duration-ms="6867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractMenuItemsToExcel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Menus@c827db]" started-at="2024-11-02T18:04:13 IST" name="tearDown" finished-at="2024-11-02T18:04:35 IST" duration-ms="22688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Menus -->
+      <class name="testcases.StudyChairsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.StudyChairsTest@1761de10]" started-at="2024-11-02T18:03:07 IST" name="setup" finished-at="2024-11-02T18:03:52 IST" duration-ms="44277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchStudyChairs()[pri:1, instance:testcases.StudyChairsTest@1761de10]" started-at="2024-11-02T18:03:52 IST" name="searchStudyChairs" finished-at="2024-11-02T18:03:56 IST" duration-ms="4780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchStudyChairs -->
+        <test-method signature="applyFilters()[pri:2, instance:testcases.StudyChairsTest@1761de10]" started-at="2024-11-02T18:03:56 IST" name="applyFilters" finished-at="2024-11-02T18:04:12 IST" duration-ms="16041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFilters -->
+        <test-method signature="setPriceAndApply()[pri:3, instance:testcases.StudyChairsTest@1761de10]" started-at="2024-11-02T18:04:12 IST" name="setPriceAndApply" finished-at="2024-11-02T18:04:16 IST" duration-ms="3311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPriceAndApply -->
+        <test-method signature="sortByCustomerRating()[pri:4, instance:testcases.StudyChairsTest@1761de10]" started-at="2024-11-02T18:04:16 IST" name="sortByCustomerRating" finished-at="2024-11-02T18:04:22 IST" duration-ms="6193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByCustomerRating -->
+        <test-method signature="extractStudyChairsDetails()[pri:5, instance:testcases.StudyChairsTest@1761de10]" started-at="2024-11-02T18:04:22 IST" name="extractStudyChairsDetails" finished-at="2024-11-02T18:04:29 IST" duration-ms="7024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractStudyChairsDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.StudyChairsTest@1761de10]" started-at="2024-11-02T18:04:29 IST" name="tearDown" finished-at="2024-11-02T18:04:36 IST" duration-ms="6951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.StudyChairsTest -->
+    </test> <!-- Smoke and Regression Test -->
+  </suite> <!-- Test Suite -->
+</testng-results>
