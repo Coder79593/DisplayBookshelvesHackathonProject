@@ -111,3 +111,157 @@
 19:54:08.869 [TestNG-test=Smoke and Regression Test-2] DEBUG - Save part 'xl/styles.xml'
 19:54:08.870 [TestNG-test=Smoke and Regression Test-2] DEBUG - Save part 'xl/workbook.xml'
 19:54:08.873 [TestNG-test=Smoke and Regression Test-2] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+10:57:58.645 [TestNG-test-Smoke and Regression Test-3] INFO  - Browser initialized: chrome
+10:57:58.670 [TestNG-test-Smoke and Regression Test-2] INFO  - Browser initialized: chrome
+10:57:58.983 [TestNG-test-Smoke and Regression Test-4] INFO  - Browser initialized: chrome
+10:58:01.496 [TestNG-test-Smoke and Regression Test-1] INFO  - Browser initialized: chrome
+10:58:17.801 [TestNG-test-Smoke and Regression Test-1] INFO  - Navigated to URL: https://www.pepperfry.com
+10:58:21.720 [TestNG-test-Smoke and Regression Test-3] INFO  - Navigated to URL: https://www.pepperfry.com
+10:58:21.984 [TestNG-test-Smoke and Regression Test-4] INFO  - Navigated to URL: https://www.pepperfry.com
+10:58:22.901 [TestNG-test-Smoke and Regression Test-2] INFO  - Navigated to URL: https://www.pepperfry.com
+10:58:28.768 [TestNG-test-Smoke and Regression Test-1] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+10:58:28.786 [TestNG-test-Smoke and Regression Test-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+10:58:28.793 [TestNG-test-Smoke and Regression Test-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+10:58:28.795 [TestNG-test-Smoke and Regression Test-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+10:58:28.798 [TestNG-test-Smoke and Regression Test-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+10:58:28.802 [TestNG-test-Smoke and Regression Test-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+10:58:28.871 [TestNG-test-Smoke and Regression Test-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+10:58:28.881 [TestNG-test-Smoke and Regression Test-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+10:58:28.912 [TestNG-test-Smoke and Regression Test-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+10:58:28.915 [TestNG-test-Smoke and Regression Test-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+10:58:28.919 [TestNG-test-Smoke and Regression Test-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+10:58:28.927 [TestNG-test-Smoke and Regression Test-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+10:58:28.932 [TestNG-test-Smoke and Regression Test-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+10:58:28.934 [TestNG-test-Smoke and Regression Test-1] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+10:58:29.370 [TestNG-test-Smoke and Regression Test-1] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+10:58:29.379 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctworkbook83c3type
+10:58:29.736 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctworkbookpr03a5type
+10:58:29.785 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctbookviewsb864type
+10:58:29.798 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctbookviewf677type
+10:58:29.836 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctsheets49fdtype
+10:58:29.863 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle propertiesee84doctype
+10:58:29.899 [TestNG-test-Smoke and Regression Test-4] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:58:29.901 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctproperties3f10type
+10:58:29.920 [TestNG-test-Smoke and Regression Test-4] DEBUG - Parsing relationship: /_rels/.rels
+10:58:29.922 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle properties288cdoctype
+10:58:29.935 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctproperties2c18type
+10:58:29.970 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle sstf81fdoctype
+10:58:29.980 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctsst44f3type
+10:58:30.004 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle stylesheet5d8bdoctype
+10:58:30.014 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctstylesheet4257type
+10:58:30.035 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctfont14d8type
+10:58:30.061 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctfontsizeb3b9type
+10:58:30.095 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle themefd26doctype
+10:58:30.096 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctcolord2c2type
+10:58:30.120 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctfontname2dc3type
+10:58:30.132 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle stxstringf179type
+10:58:30.147 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctfontfamily685ctype
+10:58:30.154 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle stfontfamily9c6ctype
+10:58:30.183 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctfontschemebf5dtype
+10:58:30.198 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle stfontschemef36dtype
+10:58:30.214 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctfill550ctype
+10:58:30.226 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctpatternfill7452type
+10:58:30.240 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle stpatterntype7939type
+10:58:30.253 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctborderf935type
+10:58:30.263 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctborderpre497type
+10:58:30.291 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctxf97f7type
+10:58:30.292 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle ctfonts6623type
+10:58:30.305 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle ctfills2c6ftype
+10:58:30.316 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle ctborders0d66type
+10:58:30.348 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle stnumfmtid76fbtype
+10:58:30.352 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle ctcellxfs1322type
+10:58:30.374 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle stfontid9d63type
+10:58:30.374 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle ctcellstylexfsa81ftype
+10:58:30.388 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle stfillida097type
+10:58:30.392 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle ctdxfsb26atype
+10:58:30.433 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle stborderid1a80type
+10:58:30.433 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle cttablestyles872ftype
+10:58:30.448 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle stcellstylexfid70c7type
+10:58:30.505 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctsheet4dbetype
+10:58:30.512 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle ctrsta472type
+10:58:30.528 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctworksheet530dtype
+10:58:30.585 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctsheetformatprdef7type
+10:58:30.617 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctsheetviewsb918type
+10:58:30.638 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctsheetview0f43type
+10:58:30.661 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle workbookec17doctype
+10:58:30.670 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctsheetdimensiond310type
+10:58:30.681 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle stref90a2type
+10:58:30.695 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle strelationshipid1e94type
+10:58:30.715 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle worksheetf539doctype
+10:58:30.716 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctsheetdata8408type
+10:58:30.729 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctpagemargins5455type
+10:58:30.745 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle ctrowdd39type
+10:58:30.762 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctcols627ctype
+10:58:30.764 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle ctcell842btype
+10:58:30.804 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle stcellrefe4e0type
+10:58:30.834 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle stcelltypebf95type
+10:58:30.848 [TestNG-test-Smoke and Regression Test-4] TRACE - Resolving type for handle ctcola95ftype
+10:58:30.949 [TestNG-test-Smoke and Regression Test-1] TRACE - Resolving type for handle ctnumfmtsb58btype
+10:58:31.030 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save core properties part
+10:58:31.033 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save content types part
+10:58:31.515 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save package relationships
+10:58:31.555 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save part 'docProps/app.xml'
+10:58:31.559 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save part 'docProps/core.xml'
+10:58:31.570 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save part 'xl/sharedStrings.xml'
+10:58:31.572 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save part 'xl/styles.xml'
+10:58:31.581 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save part 'xl/workbook.xml'
+10:58:31.587 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+10:58:31.599 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save content types part
+10:58:31.602 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save package relationships
+10:58:31.609 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save part 'docProps/app.xml'
+10:58:31.610 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save part 'docProps/core.xml'
+10:58:31.615 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save part 'xl/sharedStrings.xml'
+10:58:31.617 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save part 'xl/styles.xml'
+10:58:31.618 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save part 'xl/workbook.xml'
+10:58:31.630 [TestNG-test-Smoke and Regression Test-1] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+10:58:37.960 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save core properties part
+10:58:37.960 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save content types part
+10:58:37.967 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save package relationships
+10:58:37.976 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save part 'docProps/app.xml'
+10:58:37.978 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save part 'docProps/core.xml'
+10:58:37.987 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save part 'xl/sharedStrings.xml'
+10:58:37.990 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save part 'xl/styles.xml'
+10:58:37.994 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save part 'xl/workbook.xml'
+10:58:37.998 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+10:58:38.000 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save content types part
+10:58:38.013 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save package relationships
+10:58:38.017 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save part 'docProps/app.xml'
+10:58:38.018 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save part 'docProps/core.xml'
+10:58:38.024 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save part 'xl/sharedStrings.xml'
+10:58:38.026 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save part 'xl/styles.xml'
+10:58:38.027 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save part 'xl/workbook.xml'
+10:58:38.039 [TestNG-test-Smoke and Regression Test-4] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+10:58:43.270 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save core properties part
+10:58:43.271 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save content types part
+10:58:43.275 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save package relationships
+10:58:43.280 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save part 'docProps/app.xml'
+10:58:43.281 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save part 'docProps/core.xml'
+10:58:43.287 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save part 'xl/sharedStrings.xml'
+10:58:43.289 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save part 'xl/styles.xml'
+10:58:43.290 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save part 'xl/workbook.xml'
+10:58:43.293 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+10:58:43.295 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save content types part
+10:58:43.300 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save package relationships
+10:58:43.307 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save part 'docProps/app.xml'
+10:58:43.307 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save part 'docProps/core.xml'
+10:58:43.311 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save part 'xl/sharedStrings.xml'
+10:58:43.311 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save part 'xl/styles.xml'
+10:58:43.312 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save part 'xl/workbook.xml'
+10:58:43.316 [TestNG-test-Smoke and Regression Test-2] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+10:58:51.838 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save core properties part
+10:58:51.839 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save content types part
+10:58:51.844 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save package relationships
+10:58:51.848 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save part 'docProps/app.xml'
+10:58:51.849 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save part 'docProps/core.xml'
+10:58:51.853 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save part 'xl/sharedStrings.xml'
+10:58:51.854 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save part 'xl/styles.xml'
+10:58:51.855 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save part 'xl/workbook.xml'
+10:58:51.860 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+10:58:51.863 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save content types part
+10:58:51.866 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save package relationships
+10:58:51.869 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save part 'docProps/app.xml'
+10:58:51.869 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save part 'docProps/core.xml'
+10:58:51.874 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save part 'xl/sharedStrings.xml'
+10:58:51.875 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save part 'xl/styles.xml'
+10:58:51.876 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save part 'xl/workbook.xml'
+10:58:51.879 [TestNG-test-Smoke and Regression Test-3] DEBUG - Save part 'xl/worksheets/sheet1.xml'

@@ -26,6 +26,8 @@ public class ExtentReportManager {
             extent.setSystemInfo("Operating System", System.getProperty("os.name"));
             extent.setSystemInfo("OS Version", System.getProperty("os.version"));
             extent.setSystemInfo("Device", System.getenv("COMPUTERNAME"));
+            
+
         }
         return extent;
     }

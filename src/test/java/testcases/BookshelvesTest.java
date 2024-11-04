@@ -20,7 +20,7 @@ public class BookshelvesTest extends BaseClass{
     private static final Logger logger = Logger.getLogger(BookshelvesTest.class);
     WebDriver driver;
     BookshelvesPage bookshelvesPage;
-
+  
     @BeforeClass
     public void setup() {
     	logger.info("Initializing the WebDriver and setting up the page objects");
