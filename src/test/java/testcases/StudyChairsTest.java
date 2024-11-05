@@ -3,7 +3,9 @@ package testcases;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import org.testng.log4testng.Logger;
+
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 import org.testng.Assert;
 
@@ -17,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudyChairsTest extends BaseClass{
-	private static final Logger logger = Logger.getLogger(StudyChairsTest.class);
+	private static final Logger logger = LogManager.getLogger(StudyChairsTest.class);
 
     WebDriver driver;
     StudyChairsPage studyChairsPage;

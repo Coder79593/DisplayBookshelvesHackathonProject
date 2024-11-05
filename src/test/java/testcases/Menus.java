@@ -6,7 +6,8 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import org.testng.log4testng.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 import drivers.BaseClass;
 import pages.MenusPage;
@@ -18,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Menus  extends BaseClass{
-	private static final Logger logger = Logger.getLogger(Menus.class);
+	private static final Logger logger = LogManager.getLogger(Menus.class);
     WebDriver driver;
     MenusPage menusPage;
 

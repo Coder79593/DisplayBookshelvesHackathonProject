@@ -5,7 +5,8 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import org.testng.log4testng.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 import drivers.BaseClass;
 import pages.BookshelvesPage;
@@ -17,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BookshelvesTest extends BaseClass{
-    private static final Logger logger = Logger.getLogger(BookshelvesTest.class);
+    private static final Logger logger = LogManager.getLogger(BookshelvesTest.class);
     WebDriver driver;
     BookshelvesPage bookshelvesPage;
   

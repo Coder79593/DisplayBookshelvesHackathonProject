@@ -1,11 +1,14 @@
 package testcases;
 
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import org.testng.log4testng.Logger;
+
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 import drivers.BaseClass;
 import pages.GiftCardsPage;
@@ -18,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GiftCardsTest extends BaseClass{
-	private static final Logger logger = Logger.getLogger(GiftCardsTest.class);
+	private static final Logger logger = LogManager.getLogger(GiftCardsTest.class);
 
     WebDriver driver;
     GiftCardsPage giftCardsPage;
