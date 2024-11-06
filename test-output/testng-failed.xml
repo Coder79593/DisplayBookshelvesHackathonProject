@@ -5,12 +5,11 @@
     <listener class-name="Extentreportlistener.TestListener"/>
   </listeners>
   <test thread-count="4" parallel="classes" name="Smoke and Regression Test(failed)">
-    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="testcases.StudyChairsTest">
         <methods>
           <include name="setup"/>
-          <include name="setPriceAndApply"/>
+          <include name="sortByCustomerRating"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- testcases.StudyChairsTest -->

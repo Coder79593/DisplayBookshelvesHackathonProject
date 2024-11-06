@@ -1,14 +1,10 @@
 <?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
 <suite name="Test Suite" parallel="classes" thread-count="4">
 	<listeners>
 		<listener class-name="Extentreportlistener.TestListener"/>
 	</listeners>
 	<test name="Smoke and Regression Test">
-		<parameter name ="browser" value="chrome"/>
-		<groups>
-			<include name="smoke"/>
-			<include name="regression"/>
-		</groups>
 		<classes>
 			<class name="testcases.Menus"/>  
 			<class name="testcases.GiftCardsTest"/> 

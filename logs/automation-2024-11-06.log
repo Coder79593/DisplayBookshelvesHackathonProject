@@ -1,0 +1,475 @@
+14:35:42.783 [TestNG-test-Smoke and Regression Test-2] INFO  - Initializing the WebDriver and setting up the page objects
+14:35:42.783 [TestNG-test-Smoke and Regression Test-3] INFO  - Initializing the WebDriver and setting up the page objects
+14:35:42.783 [TestNG-test-Smoke and Regression Test-4] INFO  - Initializing WebDriver and setting up the page objects
+14:35:42.783 [TestNG-test-Smoke and Regression Test-1] INFO  - Initializing WebDriver and setting up page objects
+14:35:44.385 [TestNG-test-Smoke and Regression Test-4] INFO  - Browser initialized: chrome
+14:35:44.525 [TestNG-test-Smoke and Regression Test-1] INFO  - Browser initialized: chrome
+14:35:44.757 [TestNG-test-Smoke and Regression Test-3] INFO  - Browser initialized: chrome
+14:35:45.515 [TestNG-test-Smoke and Regression Test-2] INFO  - Browser initialized: chrome
+14:35:59.870 [TestNG-test-Smoke and Regression Test-4] INFO  - Navigated to URL: https://www.pepperfry.com
+14:35:59.988 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: selectGiftCardTest
+14:36:00.765 [TestNG-test-Smoke and Regression Test-3] INFO  - Navigated to URL: https://www.pepperfry.com
+14:36:00.785 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: searchStudyChairs
+14:36:02.782 [TestNG-test-Smoke and Regression Test-3] INFO  - Search for 'study chairs' performed successfully
+14:36:02.800 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: applyFiltersTest
+14:36:03.966 [TestNG-test-Smoke and Regression Test-4] INFO  - Selected gift card successfully
+14:36:03.968 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: fillGiftDetailsTest
+14:36:04.264 [TestNG-test-Smoke and Regression Test-2] INFO  - Navigated to URL: https://www.pepperfry.com
+14:36:04.273 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: searchBookshelvesTest
+14:36:06.800 [TestNG-test-Smoke and Regression Test-2] INFO  - Search for 'bookshelves' performed successfully
+14:36:06.804 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: applyFilterTest
+14:36:10.039 [TestNG-test-Smoke and Regression Test-4] INFO  - All data filled successfully
+14:36:10.045 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: extractErrorMessagesToExcelTest
+14:36:10.046 [TestNG-test-Smoke and Regression Test-4] INFO  - Retrieved error messages successfully
+14:36:10.164 [TestNG-test-Smoke and Regression Test-4] INFO  - Header added to excelData succesfully
+14:36:10.681 [TestNG-test-Smoke and Regression Test-4] INFO  - Data written to Excel file: Output_Excel/GiftCardErrors.xlsx
+14:36:10.683 [TestNG-test-Smoke and Regression Test-4] INFO  - Excel file verified successfully
+14:36:10.689 [TestNG-test-Smoke and Regression Test-4] INFO  - Closing the WebDriver
+14:36:13.630 [TestNG-test-Smoke and Regression Test-2] INFO  - Price Filter applied successfully
+14:36:13.635 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: sortByLowestPriceTest
+14:36:15.451 [TestNG-test-Smoke and Regression Test-2] INFO  - Sort by Filter applied successfully
+14:36:15.454 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: extractBookshelfDetailsToExcelTest
+14:36:17.129 [TestNG-test-Smoke and Regression Test-2] INFO  - Retrieved product names and prices successfully
+14:36:17.129 [TestNG-test-Smoke and Regression Test-2] INFO  - Header added to excelData
+14:36:17.130 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Trendlong Round Floating Book Shelf with price: ?999
+14:36:17.131 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Captiver Wall Mount Book Shelf In Dark Acazia Finish with price: ?1,389
+14:36:17.131 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Victor Book Shelf In Wenge Colour with price: ?1,389
+14:36:17.182 [TestNG-test-Smoke and Regression Test-2] INFO  - Data written to Excel file: Output_Excel/BookshelvesData.xlsx
+14:36:17.182 [TestNG-test-Smoke and Regression Test-2] INFO  - Excel file verified successfully
+14:36:17.185 [TestNG-test-Smoke and Regression Test-2] INFO  - Closing the WebDriver
+14:36:17.864 [TestNG-test-Smoke and Regression Test-3] INFO  - Price Filters applied successfully
+14:36:17.867 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: sortByCustomerRating
+14:36:19.778 [TestNG-test-Smoke and Regression Test-3] INFO  - Sort By Filters applied successfully
+14:36:19.781 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: extractStudyChairsDetails
+14:36:21.260 [TestNG-test-Smoke and Regression Test-3] INFO  - Product names and prices Retrieved successfully
+14:36:21.261 [TestNG-test-Smoke and Regression Test-3] INFO  - Added Header to excelData
+14:36:21.261 [TestNG-test-Smoke and Regression Test-3] INFO  - Product: Tauras Lite Breathable MeshMid Back Ergonomic Chair in Red Colour with price: ?5,499
+14:36:21.261 [TestNG-test-Smoke and Regression Test-3] INFO  - Product: Amaze Breathable Mesh Guest Chair in Black Colour with price: ?3,900
+14:36:21.261 [TestNG-test-Smoke and Regression Test-3] INFO  - Product: Kite Leatherette Executive Chair in Black Colour with price: ?8,259
+14:36:21.298 [TestNG-test-Smoke and Regression Test-3] INFO  - Written Data to Excel file: Output_Excel/StudyChairsData.xlsx
+14:36:21.299 [TestNG-test-Smoke and Regression Test-3] INFO  - Successfully verified Excel file
+14:36:21.301 [TestNG-test-Smoke and Regression Test-3] INFO  - Closing the WebDriver
+14:36:49.528 [TestNG-test-Smoke and Regression Test-1] INFO  - Navigated to URL: https://www.pepperfry.com
+14:36:49.537 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: MenuTest
+14:36:50.830 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: extractMenuItemsToExcel
+14:36:51.695 [TestNG-test-Smoke and Regression Test-1] INFO  - Retrieved sub menu data successfully
+14:36:52.326 [TestNG-test-Smoke and Regression Test-1] INFO  - Data written to Excel file: Output_Excel/MenuData.xlsx
+14:36:52.327 [TestNG-test-Smoke and Regression Test-1] INFO  - Excel file Verified Successfully
+14:36:52.329 [TestNG-test-Smoke and Regression Test-1] INFO  - Closing the WebDriver
+14:37:27.911 [TestNG-test-Smoke and Regression Test-1] INFO  - Initializing WebDriver and setting up page objects
+14:37:27.911 [TestNG-test-Smoke and Regression Test-4] INFO  - Initializing WebDriver and setting up the page objects
+14:37:27.911 [TestNG-test-Smoke and Regression Test-2] INFO  - Initializing the WebDriver and setting up the page objects
+14:37:27.911 [TestNG-test-Smoke and Regression Test-3] INFO  - Initializing the WebDriver and setting up the page objects
+14:37:29.988 [TestNG-test-Smoke and Regression Test-1] INFO  - Browser initialized: chrome
+14:37:30.347 [TestNG-test-Smoke and Regression Test-3] INFO  - Browser initialized: chrome
+14:37:30.448 [TestNG-test-Smoke and Regression Test-4] INFO  - Browser initialized: chrome
+14:37:31.041 [TestNG-test-Smoke and Regression Test-2] INFO  - Browser initialized: chrome
+14:37:53.200 [TestNG-test-Smoke and Regression Test-4] INFO  - Navigated to URL: https://www.pepperfry.com
+14:37:53.317 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: selectGiftCardTest
+14:37:53.627 [TestNG-test-Smoke and Regression Test-2] INFO  - Navigated to URL: https://www.pepperfry.com
+14:37:53.644 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: searchBookshelvesTest
+14:37:55.067 [TestNG-test-Smoke and Regression Test-1] INFO  - Navigated to URL: https://www.pepperfry.com
+14:37:55.078 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: MenuTest
+14:37:55.273 [TestNG-test-Smoke and Regression Test-2] INFO  - Search for 'bookshelves' performed successfully
+14:37:55.280 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: applyFilterTest
+14:37:56.478 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: extractMenuItemsToExcel
+14:37:56.505 [TestNG-test-Smoke and Regression Test-4] INFO  - Selected gift card successfully
+14:37:56.508 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: fillGiftDetailsTest
+14:37:57.979 [TestNG-test-Smoke and Regression Test-1] INFO  - Retrieved sub menu data successfully
+14:37:58.950 [TestNG-test-Smoke and Regression Test-1] INFO  - Data written to Excel file: Output_Excel/MenuData.xlsx
+14:37:58.951 [TestNG-test-Smoke and Regression Test-1] INFO  - Excel file Verified Successfully
+14:37:58.954 [TestNG-test-Smoke and Regression Test-1] INFO  - Closing the WebDriver
+14:37:59.823 [TestNG-test-Smoke and Regression Test-2] INFO  - Price Filter applied successfully
+14:37:59.826 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: sortByLowestPriceTest
+14:38:00.179 [TestNG-test-Smoke and Regression Test-4] INFO  - All data filled successfully
+14:38:00.181 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: extractErrorMessagesToExcelTest
+14:38:00.181 [TestNG-test-Smoke and Regression Test-4] INFO  - Retrieved error messages successfully
+14:38:00.262 [TestNG-test-Smoke and Regression Test-4] INFO  - Header added to excelData succesfully
+14:38:00.379 [TestNG-test-Smoke and Regression Test-4] INFO  - Data written to Excel file: Output_Excel/GiftCardErrors.xlsx
+14:38:00.379 [TestNG-test-Smoke and Regression Test-4] INFO  - Excel file verified successfully
+14:38:00.381 [TestNG-test-Smoke and Regression Test-4] INFO  - Closing the WebDriver
+14:38:01.245 [TestNG-test-Smoke and Regression Test-2] INFO  - Sort by Filter applied successfully
+14:38:01.247 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: extractBookshelfDetailsToExcelTest
+14:38:03.380 [TestNG-test-Smoke and Regression Test-2] INFO  - Retrieved product names and prices successfully
+14:38:03.380 [TestNG-test-Smoke and Regression Test-2] INFO  - Header added to excelData
+14:38:03.381 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Trendlong Round Floating Book Shelf with price: ?999
+14:38:03.381 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Captiver Wall Mount Book Shelf In Dark Acazia Finish with price: ?1,389
+14:38:03.381 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Victor Book Shelf In Wenge Colour with price: ?1,389
+14:38:03.427 [TestNG-test-Smoke and Regression Test-2] INFO  - Data written to Excel file: Output_Excel/BookshelvesData.xlsx
+14:38:03.428 [TestNG-test-Smoke and Regression Test-2] INFO  - Excel file verified successfully
+14:38:03.429 [TestNG-test-Smoke and Regression Test-2] INFO  - Closing the WebDriver
+14:38:04.607 [TestNG-test-Smoke and Regression Test-3] INFO  - Navigated to URL: https://www.pepperfry.com
+14:38:04.613 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: searchStudyChairs
+14:38:06.492 [TestNG-test-Smoke and Regression Test-3] INFO  - Search for 'study chairs' performed successfully
+14:38:06.495 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: applyFiltersTest
+14:38:12.135 [TestNG-test-Smoke and Regression Test-3] INFO  - Price Filters applied successfully
+14:38:12.138 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: sortByCustomerRating
+14:38:14.200 [TestNG-test-Smoke and Regression Test-3] INFO  - Sort By Filters applied successfully
+14:38:14.203 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: extractStudyChairsDetails
+14:38:15.839 [TestNG-test-Smoke and Regression Test-3] INFO  - Product names and prices Retrieved successfully
+14:38:15.839 [TestNG-test-Smoke and Regression Test-3] INFO  - Added Header to excelData
+14:38:15.839 [TestNG-test-Smoke and Regression Test-3] INFO  - Product: Tauras Lite Breathable MeshMid Back Ergonomic Chair in Red Colour with price: ?5,499
+14:38:15.839 [TestNG-test-Smoke and Regression Test-3] INFO  - Product: Amaze Breathable Mesh Guest Chair in Black Colour with price: ?3,900
+14:38:15.839 [TestNG-test-Smoke and Regression Test-3] INFO  - Product: Kite Leatherette Executive Chair in Black Colour with price: ?8,259
+14:38:15.880 [TestNG-test-Smoke and Regression Test-3] INFO  - Written Data to Excel file: Output_Excel/StudyChairsData.xlsx
+14:38:15.881 [TestNG-test-Smoke and Regression Test-3] INFO  - Successfully verified Excel file
+14:38:15.883 [TestNG-test-Smoke and Regression Test-3] INFO  - Closing the WebDriver
+14:38:58.494 [TestNG-test-Smoke and Regression Test-4] INFO  - Initializing WebDriver and setting up the page objects
+14:38:58.494 [TestNG-test-Smoke and Regression Test-1] INFO  - Initializing WebDriver and setting up page objects
+14:38:58.494 [TestNG-test-Smoke and Regression Test-3] INFO  - Initializing the WebDriver and setting up the page objects
+14:38:58.494 [TestNG-test-Smoke and Regression Test-2] INFO  - Initializing the WebDriver and setting up the page objects
+14:39:00.159 [TestNG-test-Smoke and Regression Test-1] INFO  - Browser initialized: chrome
+14:39:00.161 [TestNG-test-Smoke and Regression Test-2] INFO  - Browser initialized: chrome
+14:39:01.215 [TestNG-test-Smoke and Regression Test-4] INFO  - Browser initialized: chrome
+14:39:01.719 [TestNG-test-Smoke and Regression Test-3] INFO  - Browser initialized: chrome
+14:39:01.977 [TestNG-test-Smoke and Regression Test-4] INFO  - Navigated to URL: https://www.pepperfry.com
+14:39:02.077 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: selectGiftCardTest
+14:39:18.022 [TestNG-test-Smoke and Regression Test-1] INFO  - Navigated to URL: https://www.pepperfry.com
+14:39:18.048 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: MenuTest
+14:39:18.156 [TestNG-test-Smoke and Regression Test-2] INFO  - Navigated to URL: https://www.pepperfry.com
+14:39:18.169 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: searchBookshelvesTest
+14:39:19.704 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: extractMenuItemsToExcel
+14:39:20.245 [TestNG-test-Smoke and Regression Test-2] INFO  - Search for 'bookshelves' performed successfully
+14:39:20.248 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: applyFilterTest
+14:39:21.024 [TestNG-test-Smoke and Regression Test-1] INFO  - Retrieved sub menu data successfully
+14:39:22.779 [TestNG-test-Smoke and Regression Test-4] INFO  - Selected gift card successfully
+14:39:22.785 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: fillGiftDetailsTest
+14:39:23.756 [TestNG-test-Smoke and Regression Test-1] INFO  - Data written to Excel file: Output_Excel/MenuData.xlsx
+14:39:23.757 [TestNG-test-Smoke and Regression Test-1] INFO  - Excel file Verified Successfully
+14:39:23.762 [TestNG-test-Smoke and Regression Test-1] INFO  - Closing the WebDriver
+14:39:24.747 [TestNG-test-Smoke and Regression Test-2] INFO  - Price Filter applied successfully
+14:39:24.755 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: sortByLowestPriceTest
+14:39:26.767 [TestNG-test-Smoke and Regression Test-4] INFO  - All data filled successfully
+14:39:26.771 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: extractErrorMessagesToExcelTest
+14:39:26.771 [TestNG-test-Smoke and Regression Test-4] INFO  - Retrieved error messages successfully
+14:39:26.977 [TestNG-test-Smoke and Regression Test-4] INFO  - Header added to excelData succesfully
+14:39:27.162 [TestNG-test-Smoke and Regression Test-4] INFO  - Data written to Excel file: Output_Excel/GiftCardErrors.xlsx
+14:39:27.163 [TestNG-test-Smoke and Regression Test-4] INFO  - Excel file verified successfully
+14:39:27.165 [TestNG-test-Smoke and Regression Test-4] INFO  - Closing the WebDriver
+14:39:27.361 [TestNG-test-Smoke and Regression Test-2] INFO  - Sort by Filter applied successfully
+14:39:27.364 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: extractBookshelfDetailsToExcelTest
+14:39:28.666 [TestNG-test-Smoke and Regression Test-2] INFO  - Retrieved product names and prices successfully
+14:39:28.668 [TestNG-test-Smoke and Regression Test-2] INFO  - Header added to excelData
+14:39:28.712 [TestNG-test-Smoke and Regression Test-2] INFO  - Data written to Excel file: Output_Excel/BookshelvesData.xlsx
+14:39:28.712 [TestNG-test-Smoke and Regression Test-2] INFO  - Excel file verified successfully
+14:39:28.715 [TestNG-test-Smoke and Regression Test-2] INFO  - Closing the WebDriver
+14:39:44.574 [TestNG-test-Smoke and Regression Test-3] INFO  - Navigated to URL: https://www.pepperfry.com
+14:39:44.582 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: searchStudyChairs
+14:39:46.483 [TestNG-test-Smoke and Regression Test-3] INFO  - Search for 'study chairs' performed successfully
+14:39:46.485 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: applyFiltersTest
+14:39:55.738 [TestNG-test-Smoke and Regression Test-3] INFO  - Price Filters applied successfully
+14:39:55.740 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: sortByCustomerRating
+14:39:57.782 [TestNG-test-Smoke and Regression Test-3] INFO  - Sort By Filters applied successfully
+14:39:57.784 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: extractStudyChairsDetails
+14:39:59.385 [TestNG-test-Smoke and Regression Test-3] INFO  - Product names and prices Retrieved successfully
+14:39:59.386 [TestNG-test-Smoke and Regression Test-3] INFO  - Added Header to excelData
+14:39:59.386 [TestNG-test-Smoke and Regression Test-3] INFO  - Product: Tauras Lite Breathable MeshMid Back Ergonomic Chair in Red Colour with price: ?5,499
+14:39:59.387 [TestNG-test-Smoke and Regression Test-3] INFO  - Product: Amaze Breathable Mesh Guest Chair in Black Colour with price: ?3,900
+14:39:59.388 [TestNG-test-Smoke and Regression Test-3] INFO  - Product: Kite Leatherette Executive Chair in Black Colour with price: ?8,259
+14:39:59.436 [TestNG-test-Smoke and Regression Test-3] INFO  - Written Data to Excel file: Output_Excel/StudyChairsData.xlsx
+14:39:59.436 [TestNG-test-Smoke and Regression Test-3] INFO  - Successfully verified Excel file
+14:39:59.437 [TestNG-test-Smoke and Regression Test-3] INFO  - Closing the WebDriver
+14:43:05.686 [TestNG-test-Smoke and Regression Test-1] INFO  - Initializing WebDriver and setting up page objects
+14:43:05.686 [TestNG-test-Smoke and Regression Test-3] INFO  - Initializing the WebDriver and setting up the page objects
+14:43:05.686 [TestNG-test-Smoke and Regression Test-2] INFO  - Initializing the WebDriver and setting up the page objects
+14:43:05.686 [TestNG-test-Smoke and Regression Test-4] INFO  - Initializing WebDriver and setting up the page objects
+14:43:08.264 [TestNG-test-Smoke and Regression Test-4] INFO  - Browser initialized: chrome
+14:43:08.434 [TestNG-test-Smoke and Regression Test-1] INFO  - Browser initialized: chrome
+14:43:09.000 [TestNG-test-Smoke and Regression Test-2] INFO  - Browser initialized: chrome
+14:43:09.016 [TestNG-test-Smoke and Regression Test-3] INFO  - Browser initialized: chrome
+14:43:25.664 [TestNG-test-Smoke and Regression Test-2] INFO  - Navigated to URL: https://www.pepperfry.com
+14:43:25.787 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: searchBookshelvesTest
+14:43:27.363 [TestNG-test-Smoke and Regression Test-2] INFO  - Search for 'bookshelves' performed successfully
+14:43:27.376 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: applyFilterTest
+14:43:30.414 [TestNG-test-Smoke and Regression Test-2] INFO  - Price Filter applied successfully
+14:43:30.417 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: sortByLowestPriceTest
+14:43:31.879 [TestNG-test-Smoke and Regression Test-2] INFO  - Sort by Filter applied successfully
+14:43:31.882 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: extractBookshelfDetailsToExcelTest
+14:43:33.545 [TestNG-test-Smoke and Regression Test-2] INFO  - Retrieved product names and prices successfully
+14:43:33.545 [TestNG-test-Smoke and Regression Test-2] INFO  - Header added to excelData
+14:43:33.546 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Trendlong Round Floating Book Shelf with price: ?999
+14:43:33.546 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Captiver Wall Mount Book Shelf In Dark Acazia Finish with price: ?1,389
+14:43:33.547 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Victor Book Shelf In Wenge Colour with price: ?1,389
+14:43:34.897 [TestNG-test-Smoke and Regression Test-2] INFO  - Data written to Excel file: Output_Excel/BookshelvesData.xlsx
+14:43:34.898 [TestNG-test-Smoke and Regression Test-2] INFO  - Excel file verified successfully
+14:43:34.901 [TestNG-test-Smoke and Regression Test-2] INFO  - Closing the WebDriver
+14:43:45.297 [TestNG-test-Smoke and Regression Test-1] INFO  - Navigated to URL: https://www.pepperfry.com
+14:43:45.306 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: MenuTest
+14:43:46.321 [TestNG-test-Smoke and Regression Test-4] INFO  - Navigated to URL: https://www.pepperfry.com
+14:43:46.332 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: selectGiftCardTest
+14:43:46.736 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: extractMenuItemsToExcel
+14:43:47.934 [TestNG-test-Smoke and Regression Test-3] INFO  - Navigated to URL: https://www.pepperfry.com
+14:43:47.946 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: searchStudyChairs
+14:43:48.182 [TestNG-test-Smoke and Regression Test-1] INFO  - Retrieved sub menu data successfully
+14:43:48.727 [TestNG-test-Smoke and Regression Test-1] INFO  - Data written to Excel file: Output_Excel/MenuData.xlsx
+14:43:48.728 [TestNG-test-Smoke and Regression Test-1] INFO  - Excel file Verified Successfully
+14:43:48.729 [TestNG-test-Smoke and Regression Test-1] INFO  - Closing the WebDriver
+14:43:49.928 [TestNG-test-Smoke and Regression Test-3] INFO  - Search for 'study chairs' performed successfully
+14:43:49.931 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: applyFiltersTest
+14:43:50.185 [TestNG-test-Smoke and Regression Test-4] INFO  - Selected gift card successfully
+14:43:50.187 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: fillGiftDetailsTest
+14:43:53.223 [TestNG-test-Smoke and Regression Test-4] INFO  - All data filled successfully
+14:43:53.227 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: extractErrorMessagesToExcelTest
+14:43:53.227 [TestNG-test-Smoke and Regression Test-4] INFO  - Retrieved error messages successfully
+14:43:53.349 [TestNG-test-Smoke and Regression Test-4] INFO  - Header added to excelData succesfully
+14:43:53.482 [TestNG-test-Smoke and Regression Test-4] INFO  - Data written to Excel file: Output_Excel/GiftCardErrors.xlsx
+14:43:53.482 [TestNG-test-Smoke and Regression Test-4] INFO  - Excel file verified successfully
+14:43:53.485 [TestNG-test-Smoke and Regression Test-4] INFO  - Closing the WebDriver
+14:44:07.666 [TestNG-test-Smoke and Regression Test-3] INFO  - Price Filters applied successfully
+14:44:07.669 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: sortByCustomerRating
+14:44:09.497 [TestNG-test-Smoke and Regression Test-3] INFO  - Sort By Filters applied successfully
+14:44:09.499 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: extractStudyChairsDetails
+14:44:10.858 [TestNG-test-Smoke and Regression Test-3] INFO  - Product names and prices Retrieved successfully
+14:44:10.858 [TestNG-test-Smoke and Regression Test-3] INFO  - Added Header to excelData
+14:44:10.858 [TestNG-test-Smoke and Regression Test-3] INFO  - Product: Tauras Lite Breathable MeshMid Back Ergonomic Chair in Red Colour with price: ?5,499
+14:44:10.858 [TestNG-test-Smoke and Regression Test-3] INFO  - Product: Amaze Breathable Mesh Guest Chair in Black Colour with price: ?3,900
+14:44:10.859 [TestNG-test-Smoke and Regression Test-3] INFO  - Product: Kite Leatherette Executive Chair in Black Colour with price: ?8,259
+14:44:10.902 [TestNG-test-Smoke and Regression Test-3] INFO  - Written Data to Excel file: Output_Excel/StudyChairsData.xlsx
+14:44:10.903 [TestNG-test-Smoke and Regression Test-3] INFO  - Successfully verified Excel file
+14:44:10.904 [TestNG-test-Smoke and Regression Test-3] INFO  - Closing the WebDriver
+14:46:46.042 [TestNG-test-Smoke and Regression Test-4] INFO  - Initializing WebDriver and setting up the page objects
+14:46:46.042 [TestNG-test-Smoke and Regression Test-3] INFO  - Initializing the WebDriver and setting up the page objects
+14:46:46.042 [TestNG-test-Smoke and Regression Test-2] INFO  - Initializing the WebDriver and setting up the page objects
+14:46:46.042 [TestNG-test-Smoke and Regression Test-1] INFO  - Initializing WebDriver and setting up page objects
+14:46:48.177 [TestNG-test-Smoke and Regression Test-4] INFO  - Browser initialized: chrome
+14:46:48.224 [TestNG-test-Smoke and Regression Test-2] INFO  - Browser initialized: chrome
+14:46:48.296 [TestNG-test-Smoke and Regression Test-3] INFO  - Browser initialized: chrome
+14:46:48.725 [TestNG-test-Smoke and Regression Test-1] INFO  - Browser initialized: chrome
+14:47:03.218 [TestNG-test-Smoke and Regression Test-3] INFO  - Navigated to URL: https://www.pepperfry.com
+14:47:03.341 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: searchStudyChairs
+14:47:05.384 [TestNG-test-Smoke and Regression Test-3] INFO  - Search for 'study chairs' performed successfully
+14:47:05.394 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: applyFiltersTest
+14:47:12.242 [TestNG-test-Smoke and Regression Test-1] INFO  - Navigated to URL: https://www.pepperfry.com
+14:47:12.253 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: MenuTest
+14:47:13.710 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: extractMenuItemsToExcel
+14:47:14.853 [TestNG-test-Smoke and Regression Test-1] INFO  - Retrieved sub menu data successfully
+14:47:14.951 [TestNG-test-Smoke and Regression Test-3] INFO  - Price Filters applied successfully
+14:47:14.955 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: sortByCustomerRating
+14:47:16.995 [TestNG-test-Smoke and Regression Test-3] INFO  - Sort By Filters applied successfully
+14:47:16.999 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: extractStudyChairsDetails
+14:47:17.004 [TestNG-test-Smoke and Regression Test-1] INFO  - Data written to Excel file: Output_Excel/MenuData.xlsx
+14:47:17.004 [TestNG-test-Smoke and Regression Test-1] INFO  - Excel file Verified Successfully
+14:47:17.008 [TestNG-test-Smoke and Regression Test-1] INFO  - Closing the WebDriver
+14:47:18.055 [TestNG-test-Smoke and Regression Test-2] INFO  - Navigated to URL: https://www.pepperfry.com
+14:47:18.064 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: searchBookshelvesTest
+14:47:18.581 [TestNG-test-Smoke and Regression Test-3] INFO  - Product names and prices Retrieved successfully
+14:47:18.582 [TestNG-test-Smoke and Regression Test-3] INFO  - Added Header to excelData
+14:47:18.629 [TestNG-test-Smoke and Regression Test-3] INFO  - Written Data to Excel file: Output_Excel/StudyChairsData.xlsx
+14:47:18.629 [TestNG-test-Smoke and Regression Test-3] INFO  - Successfully verified Excel file
+14:47:18.633 [TestNG-test-Smoke and Regression Test-3] INFO  - Closing the WebDriver
+14:47:19.639 [TestNG-test-Smoke and Regression Test-2] INFO  - Search for 'bookshelves' performed successfully
+14:47:19.641 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: applyFilterTest
+14:47:21.966 [TestNG-test-Smoke and Regression Test-2] INFO  - Price Filter applied successfully
+14:47:21.970 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: sortByLowestPriceTest
+14:47:23.758 [TestNG-test-Smoke and Regression Test-2] INFO  - Sort by Filter applied successfully
+14:47:23.760 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: extractBookshelfDetailsToExcelTest
+14:47:25.321 [TestNG-test-Smoke and Regression Test-2] INFO  - Retrieved product names and prices successfully
+14:47:25.321 [TestNG-test-Smoke and Regression Test-2] INFO  - Header added to excelData
+14:47:25.322 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Trendlong Round Floating Book Shelf with price: ?999
+14:47:25.323 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Captiver Wall Mount Book Shelf In Dark Acazia Finish with price: ?1,389
+14:47:25.323 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Victor Book Shelf In Wenge Colour with price: ?1,389
+14:47:25.363 [TestNG-test-Smoke and Regression Test-2] INFO  - Data written to Excel file: Output_Excel/BookshelvesData.xlsx
+14:47:25.364 [TestNG-test-Smoke and Regression Test-2] INFO  - Excel file verified successfully
+14:47:25.367 [TestNG-test-Smoke and Regression Test-2] INFO  - Closing the WebDriver
+14:47:28.854 [TestNG-test-Smoke and Regression Test-4] INFO  - Navigated to URL: https://www.pepperfry.com
+14:47:28.860 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: selectGiftCardTest
+14:47:31.627 [TestNG-test-Smoke and Regression Test-4] INFO  - Selected gift card successfully
+14:47:31.632 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: fillGiftDetailsTest
+14:47:33.995 [TestNG-test-Smoke and Regression Test-4] INFO  - All data filled successfully
+14:47:33.999 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: extractErrorMessagesToExcelTest
+14:47:34.000 [TestNG-test-Smoke and Regression Test-4] INFO  - Retrieved error messages successfully
+14:47:34.073 [TestNG-test-Smoke and Regression Test-4] INFO  - Header added to excelData succesfully
+14:47:34.181 [TestNG-test-Smoke and Regression Test-4] INFO  - Data written to Excel file: Output_Excel/GiftCardErrors.xlsx
+14:47:34.182 [TestNG-test-Smoke and Regression Test-4] INFO  - Excel file verified successfully
+14:47:34.184 [TestNG-test-Smoke and Regression Test-4] INFO  - Closing the WebDriver
+14:47:58.289 [TestNG-test-Smoke and Regression Test-3] INFO  - Initializing the WebDriver and setting up the page objects
+14:47:58.289 [TestNG-test-Smoke and Regression Test-2] INFO  - Initializing the WebDriver and setting up the page objects
+14:47:58.289 [TestNG-test-Smoke and Regression Test-4] INFO  - Initializing WebDriver and setting up the page objects
+14:47:58.289 [TestNG-test-Smoke and Regression Test-1] INFO  - Initializing WebDriver and setting up page objects
+14:48:00.690 [TestNG-test-Smoke and Regression Test-3] INFO  - Browser initialized: chrome
+14:48:00.780 [TestNG-test-Smoke and Regression Test-4] INFO  - Browser initialized: chrome
+14:48:00.797 [TestNG-test-Smoke and Regression Test-1] INFO  - Browser initialized: chrome
+14:48:01.567 [TestNG-test-Smoke and Regression Test-2] INFO  - Browser initialized: chrome
+14:48:15.221 [TestNG-test-Smoke and Regression Test-3] INFO  - Navigated to URL: https://www.pepperfry.com
+14:48:15.364 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: searchStudyChairs
+14:48:17.783 [TestNG-test-Smoke and Regression Test-3] INFO  - Search for 'study chairs' performed successfully
+14:48:17.793 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: applyFiltersTest
+14:48:18.704 [TestNG-test-Smoke and Regression Test-2] INFO  - Navigated to URL: https://www.pepperfry.com
+14:48:18.715 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: searchBookshelvesTest
+14:48:21.007 [TestNG-test-Smoke and Regression Test-2] INFO  - Search for 'bookshelves' performed successfully
+14:48:21.010 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: applyFilterTest
+14:48:24.841 [TestNG-test-Smoke and Regression Test-2] INFO  - Price Filter applied successfully
+14:48:24.847 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: sortByLowestPriceTest
+14:48:24.939 [TestNG-test-Smoke and Regression Test-3] INFO  - Price Filters applied successfully
+14:48:24.943 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: sortByCustomerRating
+14:48:27.311 [TestNG-test-Smoke and Regression Test-3] INFO  - Sort By Filters applied successfully
+14:48:27.315 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: extractStudyChairsDetails
+14:48:27.368 [TestNG-test-Smoke and Regression Test-1] INFO  - Navigated to URL: https://www.pepperfry.com
+14:48:27.384 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: MenuTest
+14:48:29.002 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: extractMenuItemsToExcel
+14:48:29.145 [TestNG-test-Smoke and Regression Test-2] INFO  - Sort by Filter applied successfully
+14:48:29.149 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: extractBookshelfDetailsToExcelTest
+14:48:29.227 [TestNG-test-Smoke and Regression Test-3] INFO  - Product names and prices Retrieved successfully
+14:48:29.227 [TestNG-test-Smoke and Regression Test-3] INFO  - Added Header to excelData
+14:48:29.253 [TestNG-test-Smoke and Regression Test-2] INFO  - Retrieved product names and prices successfully
+14:48:29.253 [TestNG-test-Smoke and Regression Test-2] INFO  - Header added to excelData
+14:48:31.374 [TestNG-test-Smoke and Regression Test-3] INFO  - Written Data to Excel file: Output_Excel/StudyChairsData.xlsx
+14:48:31.374 [TestNG-test-Smoke and Regression Test-3] INFO  - Successfully verified Excel file
+14:48:31.376 [TestNG-test-Smoke and Regression Test-3] INFO  - Closing the WebDriver
+14:48:31.384 [TestNG-test-Smoke and Regression Test-2] INFO  - Data written to Excel file: Output_Excel/BookshelvesData.xlsx
+14:48:31.385 [TestNG-test-Smoke and Regression Test-2] INFO  - Excel file verified successfully
+14:48:31.388 [TestNG-test-Smoke and Regression Test-2] INFO  - Closing the WebDriver
+14:48:34.731 [TestNG-test-Smoke and Regression Test-4] INFO  - Navigated to URL: https://www.pepperfry.com
+14:48:34.740 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: selectGiftCardTest
+14:48:35.447 [TestNG-test-Smoke and Regression Test-1] INFO  - Retrieved sub menu data successfully
+14:48:35.945 [TestNG-test-Smoke and Regression Test-1] INFO  - Data written to Excel file: Output_Excel/MenuData.xlsx
+14:48:35.946 [TestNG-test-Smoke and Regression Test-1] INFO  - Excel file Verified Successfully
+14:48:35.948 [TestNG-test-Smoke and Regression Test-1] INFO  - Closing the WebDriver
+14:48:38.508 [TestNG-test-Smoke and Regression Test-4] INFO  - Selected gift card successfully
+14:48:38.511 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: fillGiftDetailsTest
+14:48:40.653 [TestNG-test-Smoke and Regression Test-4] INFO  - All data filled successfully
+14:48:40.656 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: extractErrorMessagesToExcelTest
+14:48:40.656 [TestNG-test-Smoke and Regression Test-4] INFO  - Retrieved error messages successfully
+14:48:40.740 [TestNG-test-Smoke and Regression Test-4] INFO  - Header added to excelData succesfully
+14:48:40.851 [TestNG-test-Smoke and Regression Test-4] INFO  - Data written to Excel file: Output_Excel/GiftCardErrors.xlsx
+14:48:40.852 [TestNG-test-Smoke and Regression Test-4] INFO  - Excel file verified successfully
+14:48:40.854 [TestNG-test-Smoke and Regression Test-4] INFO  - Closing the WebDriver
+14:49:09.729 [TestNG-test-Smoke and Regression Test-4] INFO  - Initializing WebDriver and setting up the page objects
+14:49:09.729 [TestNG-test-Smoke and Regression Test-2] INFO  - Initializing the WebDriver and setting up the page objects
+14:49:09.729 [TestNG-test-Smoke and Regression Test-3] INFO  - Initializing the WebDriver and setting up the page objects
+14:49:09.729 [TestNG-test-Smoke and Regression Test-1] INFO  - Initializing WebDriver and setting up page objects
+14:49:11.997 [TestNG-test-Smoke and Regression Test-1] INFO  - Browser initialized: chrome
+14:49:12.000 [TestNG-test-Smoke and Regression Test-2] INFO  - Browser initialized: chrome
+14:49:12.000 [TestNG-test-Smoke and Regression Test-3] INFO  - Browser initialized: chrome
+14:49:12.033 [TestNG-test-Smoke and Regression Test-4] INFO  - Browser initialized: chrome
+14:49:12.396 [TestNG-test-Smoke and Regression Test-1] INFO  - Navigated to URL: https://www.pepperfry.com
+14:49:12.580 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: MenuTest
+14:49:27.619 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: extractMenuItemsToExcel
+14:49:29.213 [TestNG-test-Smoke and Regression Test-1] INFO  - Retrieved sub menu data successfully
+14:49:31.259 [TestNG-test-Smoke and Regression Test-1] INFO  - Data written to Excel file: Output_Excel/MenuData.xlsx
+14:49:31.260 [TestNG-test-Smoke and Regression Test-1] INFO  - Excel file Verified Successfully
+14:49:31.263 [TestNG-test-Smoke and Regression Test-1] INFO  - Closing the WebDriver
+14:49:36.029 [TestNG-test-Smoke and Regression Test-3] INFO  - Navigated to URL: https://www.pepperfry.com
+14:49:36.035 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: searchStudyChairs
+14:49:37.894 [TestNG-test-Smoke and Regression Test-3] INFO  - Search for 'study chairs' performed successfully
+14:49:37.898 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: applyFiltersTest
+14:49:44.981 [TestNG-test-Smoke and Regression Test-2] INFO  - Navigated to URL: https://www.pepperfry.com
+14:49:44.987 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: searchBookshelvesTest
+14:49:47.435 [TestNG-test-Smoke and Regression Test-2] INFO  - Search for 'bookshelves' performed successfully
+14:49:47.438 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: applyFilterTest
+14:49:50.421 [TestNG-test-Smoke and Regression Test-2] INFO  - Price Filter applied successfully
+14:49:50.424 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: sortByLowestPriceTest
+14:49:52.615 [TestNG-test-Smoke and Regression Test-2] INFO  - Sort by Filter applied successfully
+14:49:52.618 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: extractBookshelfDetailsToExcelTest
+14:49:54.462 [TestNG-test-Smoke and Regression Test-3] INFO  - Price Filters applied successfully
+14:49:54.465 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: sortByCustomerRating
+14:49:54.478 [TestNG-test-Smoke and Regression Test-2] INFO  - Retrieved product names and prices successfully
+14:49:54.479 [TestNG-test-Smoke and Regression Test-2] INFO  - Header added to excelData
+14:49:54.479 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Trendlong Round Floating Book Shelf with price: ?999
+14:49:54.480 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Captiver Wall Mount Book Shelf In Dark Acazia Finish with price: ?1,389
+14:49:54.480 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Victor Book Shelf In Wenge Colour with price: ?1,389
+14:49:54.534 [TestNG-test-Smoke and Regression Test-2] INFO  - Data written to Excel file: Output_Excel/BookshelvesData.xlsx
+14:49:54.535 [TestNG-test-Smoke and Regression Test-2] INFO  - Excel file verified successfully
+14:49:54.537 [TestNG-test-Smoke and Regression Test-2] INFO  - Closing the WebDriver
+14:49:55.924 [TestNG-test-Smoke and Regression Test-3] INFO  - Sort By Filters applied successfully
+14:49:55.926 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: extractStudyChairsDetails
+14:49:56.492 [TestNG-test-Smoke and Regression Test-3] INFO  - Product names and prices Retrieved successfully
+14:49:56.493 [TestNG-test-Smoke and Regression Test-3] INFO  - Added Header to excelData
+14:49:56.493 [TestNG-test-Smoke and Regression Test-3] INFO  - Product: Tauras Lite Breathable MeshMid Back Ergonomic Chair in Red Colour with price: ?5,499
+14:49:56.493 [TestNG-test-Smoke and Regression Test-3] INFO  - Product: Amaze Breathable Mesh Guest Chair in Black Colour with price: ?3,900
+14:49:56.494 [TestNG-test-Smoke and Regression Test-3] INFO  - Product: Kite Leatherette Executive Chair in Black Colour with price: ?8,259
+14:49:56.545 [TestNG-test-Smoke and Regression Test-3] INFO  - Written Data to Excel file: Output_Excel/StudyChairsData.xlsx
+14:49:56.546 [TestNG-test-Smoke and Regression Test-3] INFO  - Successfully verified Excel file
+14:49:56.548 [TestNG-test-Smoke and Regression Test-3] INFO  - Closing the WebDriver
+14:50:10.555 [TestNG-test-Smoke and Regression Test-4] INFO  - Navigated to URL: https://www.pepperfry.com
+14:50:10.562 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: selectGiftCardTest
+14:50:13.706 [TestNG-test-Smoke and Regression Test-4] INFO  - Selected gift card successfully
+14:50:13.708 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: fillGiftDetailsTest
+14:50:15.551 [TestNG-test-Smoke and Regression Test-4] INFO  - All data filled successfully
+14:50:15.553 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: extractErrorMessagesToExcelTest
+14:50:15.553 [TestNG-test-Smoke and Regression Test-4] INFO  - Retrieved error messages successfully
+14:50:15.628 [TestNG-test-Smoke and Regression Test-4] INFO  - Header added to excelData succesfully
+14:50:15.732 [TestNG-test-Smoke and Regression Test-4] INFO  - Data written to Excel file: Output_Excel/GiftCardErrors.xlsx
+14:50:15.732 [TestNG-test-Smoke and Regression Test-4] INFO  - Excel file verified successfully
+14:50:15.733 [TestNG-test-Smoke and Regression Test-4] INFO  - Closing the WebDriver
+16:39:13.723 [TestNG-test-Smoke and Regression Test-2] INFO  - Initializing the WebDriver and setting up the page objects
+16:39:13.723 [TestNG-test-Smoke and Regression Test-3] INFO  - Initializing the WebDriver and setting up the page objects
+16:39:13.723 [TestNG-test-Smoke and Regression Test-1] INFO  - Initializing WebDriver and setting up page objects
+16:39:13.723 [TestNG-test-Smoke and Regression Test-4] INFO  - Initializing WebDriver and setting up the page objects
+16:39:16.626 [TestNG-test-Smoke and Regression Test-3] INFO  - Browser initialized: chrome
+16:39:16.870 [TestNG-test-Smoke and Regression Test-1] INFO  - Browser initialized: chrome
+16:39:16.937 [TestNG-test-Smoke and Regression Test-2] INFO  - Browser initialized: chrome
+16:39:17.025 [TestNG-test-Smoke and Regression Test-4] INFO  - Browser initialized: chrome
+16:39:28.103 [TestNG-test-Smoke and Regression Test-4] INFO  - Navigated to URL: https://www.pepperfry.com
+16:39:28.271 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: selectGiftCardTest
+16:39:36.188 [TestNG-test-Smoke and Regression Test-4] INFO  - Selected gift card successfully
+16:39:36.201 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: fillGiftDetailsTest
+16:39:36.464 [TestNG-test-Smoke and Regression Test-3] INFO  - Navigated to URL: https://www.pepperfry.com
+16:39:36.489 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: searchStudyChairs
+16:39:38.416 [TestNG-test-Smoke and Regression Test-3] INFO  - Search for 'study chairs' performed successfully
+16:39:38.421 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: applyFiltersTest
+16:39:41.250 [TestNG-test-Smoke and Regression Test-4] INFO  - All data filled successfully
+16:39:41.255 [TestNG-test-Smoke and Regression Test-4] INFO  - Starting test: extractErrorMessagesToExcelTest
+16:39:41.255 [TestNG-test-Smoke and Regression Test-4] INFO  - Retrieved error messages successfully
+16:39:41.370 [TestNG-test-Smoke and Regression Test-4] INFO  - Header added to excelData succesfully
+16:39:42.002 [TestNG-test-Smoke and Regression Test-4] INFO  - Data written to Excel file: Output_Excel/GiftCardErrors.xlsx
+16:39:42.003 [TestNG-test-Smoke and Regression Test-4] INFO  - Excel file verified successfully
+16:39:42.051 [TestNG-test-Smoke and Regression Test-4] INFO  - Closing the WebDriver
+16:39:55.573 [TestNG-test-Smoke and Regression Test-2] INFO  - Navigated to URL: https://www.pepperfry.com
+16:39:55.583 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: searchBookshelvesTest
+16:39:56.563 [TestNG-test-Smoke and Regression Test-1] INFO  - Navigated to URL: https://www.pepperfry.com
+16:39:56.573 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: MenuTest
+16:39:57.120 [TestNG-test-Smoke and Regression Test-2] INFO  - Search for 'bookshelves' performed successfully
+16:39:57.122 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: applyFilterTest
+16:39:57.913 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: extractMenuItemsToExcel
+16:39:59.284 [TestNG-test-Smoke and Regression Test-1] INFO  - Retrieved sub menu data successfully
+16:39:59.946 [TestNG-test-Smoke and Regression Test-1] INFO  - Data written to Excel file: Output_Excel/MenuData.xlsx
+16:39:59.947 [TestNG-test-Smoke and Regression Test-1] INFO  - Excel file Verified Successfully
+16:39:59.948 [TestNG-test-Smoke and Regression Test-1] INFO  - Closing the WebDriver
+16:40:00.366 [TestNG-test-Smoke and Regression Test-2] INFO  - Price Filter applied successfully
+16:40:00.369 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: sortByLowestPriceTest
+16:40:01.583 [TestNG-test-Smoke and Regression Test-2] INFO  - Sort by Filter applied successfully
+16:40:01.584 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: extractBookshelfDetailsToExcelTest
+16:40:01.638 [TestNG-test-Smoke and Regression Test-2] INFO  - Retrieved product names and prices successfully
+16:40:01.638 [TestNG-test-Smoke and Regression Test-2] INFO  - Header added to excelData
+16:40:01.689 [TestNG-test-Smoke and Regression Test-2] INFO  - Data written to Excel file: Output_Excel/BookshelvesData.xlsx
+16:40:01.690 [TestNG-test-Smoke and Regression Test-2] INFO  - Excel file verified successfully
+16:40:01.692 [TestNG-test-Smoke and Regression Test-2] INFO  - Closing the WebDriver
+16:40:08.974 [TestNG-test-Smoke and Regression Test-3] INFO  - Price Filters applied successfully
+16:40:08.977 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: sortByCustomerRating
+16:40:11.029 [TestNG-test-Smoke and Regression Test-3] INFO  - Sort By Filters applied successfully
+16:40:11.030 [TestNG-test-Smoke and Regression Test-3] INFO  - Starting test: extractStudyChairsDetails
+16:40:11.673 [TestNG-test-Smoke and Regression Test-3] INFO  - Product names and prices Retrieved successfully
+16:40:11.673 [TestNG-test-Smoke and Regression Test-3] INFO  - Added Header to excelData
+16:40:11.719 [TestNG-test-Smoke and Regression Test-3] INFO  - Written Data to Excel file: Output_Excel/StudyChairsData.xlsx
+16:40:11.720 [TestNG-test-Smoke and Regression Test-3] INFO  - Successfully verified Excel file
+16:40:11.722 [TestNG-test-Smoke and Regression Test-3] INFO  - Closing the WebDriver
+17:00:34.783 [TestNG-test-Smoke and Regression Test-3] INFO  - Initializing the WebDriver and setting up the page objects
+17:00:34.783 [TestNG-test-Smoke and Regression Test-4] INFO  - Initializing WebDriver and setting up the page objects
+17:00:34.783 [TestNG-test-Smoke and Regression Test-1] INFO  - Initializing WebDriver and setting up page objects
+17:00:34.783 [TestNG-test-Smoke and Regression Test-2] INFO  - Initializing the WebDriver and setting up the page objects
+17:00:36.721 [TestNG-test-Smoke and Regression Test-2] INFO  - Browser initialized: chrome
+17:00:36.721 [TestNG-test-Smoke and Regression Test-4] INFO  - Browser initialized: chrome
+17:00:36.723 [TestNG-test-Smoke and Regression Test-1] INFO  - Browser initialized: chrome
+17:00:37.278 [TestNG-test-Smoke and Regression Test-3] INFO  - Browser initialized: chrome
+17:00:55.043 [TestNG-test-Smoke and Regression Test-2] INFO  - Navigated to URL: https://www.pepperfry.com
+17:00:55.182 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: searchBookshelvesTest
+17:00:56.391 [TestNG-test-Smoke and Regression Test-1] INFO  - Navigated to URL: https://www.pepperfry.com
+17:00:56.405 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: MenuTest
+17:00:57.303 [TestNG-test-Smoke and Regression Test-2] INFO  - Search for 'bookshelves' performed successfully
+17:00:57.305 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: applyFilterTest
+17:00:57.817 [TestNG-test-Smoke and Regression Test-1] INFO  - Starting test: extractMenuItemsToExcel
+17:00:59.902 [TestNG-test-Smoke and Regression Test-2] INFO  - Price Filter applied successfully
+17:00:59.907 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: sortByLowestPriceTest
+17:01:00.207 [TestNG-test-Smoke and Regression Test-1] INFO  - Retrieved sub menu data successfully
+17:01:01.803 [TestNG-test-Smoke and Regression Test-2] INFO  - Sort by Filter applied successfully
+17:01:01.806 [TestNG-test-Smoke and Regression Test-2] INFO  - Starting test: extractBookshelfDetailsToExcelTest
+17:01:02.438 [TestNG-test-Smoke and Regression Test-1] INFO  - Data written to Excel file: Output_Excel/MenuData.xlsx
+17:01:02.439 [TestNG-test-Smoke and Regression Test-1] INFO  - Excel file Verified Successfully
+17:01:02.443 [TestNG-test-Smoke and Regression Test-1] INFO  - Closing the WebDriver
+17:01:02.607 [TestNG-test-Smoke and Regression Test-2] INFO  - Retrieved product names and prices successfully
+17:01:02.608 [TestNG-test-Smoke and Regression Test-2] INFO  - Header added to excelData
+17:01:02.608 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Trendlong Round Floating Book Shelf with price: ?999
+17:01:02.609 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Captiver Wall Mount Book Shelf In Dark Acazia Finish with price: ?1,389
+17:01:02.610 [TestNG-test-Smoke and Regression Test-2] INFO  - Added product: Victor Book Shelf In Wenge Colour with price: ?1,389
+17:01:02.673 [TestNG-test-Smoke and Regression Test-2] INFO  - Data written to Excel file: Output_Excel/BookshelvesData.xlsx
