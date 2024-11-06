@@ -58,9 +58,12 @@ public class StudyChairsPage extends BasePage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         
         wait.until(ExpectedConditions.visibilityOf(searchBox)).sendKeys(keyword);
-        wait.until(ExpectedConditions.elementToBeClickable(searchButton)).click();
-        
+        try  {
+            wait.until(ExpectedConditions.elementToBeClickable(searchButton)).click();
+        } catch (ElementClickInterceptedException e) {
 
+            js.executeScript("arguments[0].click();", searchButton);
+        }
     }
     
     public boolean isSearchtextDisplayed() {                        

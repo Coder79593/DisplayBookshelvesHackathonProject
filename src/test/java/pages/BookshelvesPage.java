@@ -5,6 +5,7 @@ import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -78,10 +79,15 @@ public class BookshelvesPage extends BasePage {
     		return false;
     	}
 	}
-    public void applyFilter() throws IOException {                                  
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+    public void applyFilter() throws IOException {    
+    	JavascriptExecutor js = (JavascriptExecutor) driver;
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        try {
+            wait.until(ExpectedConditions.elementToBeClickable(filterButton)).click();
+        } catch (ElementClickInterceptedException e) {
 
-        wait.until(ExpectedConditions.elementToBeClickable(filterButton)).click();
+            js.executeScript("arguments[0].click();", filterButton);
+        }
         ScreenshotUtility.captureScreenshot(driver, "FilterApply");
     }
 

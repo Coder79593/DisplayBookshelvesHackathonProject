@@ -10,7 +10,8 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import drivers.DriverSetup;
+
+import drivers.BaseClass;
 
 import java.util.Base64;
 
@@ -22,9 +23,17 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult result) {
-       
-        ExtentTest test = extent.createTest(result.getMethod().getMethodName());
-        extentTest.set(test);
+    	
+    	String os = System.getProperty("os.name");
+		String browser = BaseClass.getProperty("browser");
+		
+        ExtentTest test = extent.createTest(result.getMethod().getMethodName());	
+		test.log(Status.INFO,"Operating System: "+ os);
+		test.log(Status.INFO,"Browser: "+browser);
+		for(String group : result.getMethod().getGroups()) {
+			test.assignCategory(group);
+		}	
+		extentTest.set(test);
     }
 
     @Override
@@ -34,7 +43,7 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult result) {
-        WebDriver driver = DriverSetup.initializeDriver(); 
+        WebDriver driver = BaseClass.initializeBrowser(); 
 
    
         byte[] screenshotBytes = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
